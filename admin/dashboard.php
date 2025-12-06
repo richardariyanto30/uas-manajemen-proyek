@@ -6,66 +6,86 @@
     <title>Admin Dashboard</title>
     <style>
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f5f7;
-            display: flex;
-        }
-        /* Sidebar */
-        .sidebar {
-            width: 240px;
-            background: #1e1e2d;
-            height: 100vh;
-            color: white;
-            padding-top: 20px;
-            position: fixed;
-        }
-        .sidebar h2 {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 20px;
-        }
-        .menu a {
-            display: block;
-            padding: 12px 20px;
-            color: #cfcfd9;
-            text-decoration: none;
-            font-size: 15px;
-        }
-        .menu a:hover {
-            background: #34344a;
-            color: #fff;
-        }
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #ffffff;
+    display: flex;
+}
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    background: #00FFFF;
+    height: 100vh;
+    color: #000;
+    padding-top: 25px;
+    position: fixed;
+    border-right: 3px solid rgba(0,0,0,0.08);
+}
+.sidebar h2 {
+    text-align: center;
+    margin: 0 0 35px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.menu a {
+    display: block;
+    padding: 14px 22px;
+    color: #004b4b;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.12);
+    color: #000;
+}
 
-        /* Content */
-        .content {
-            margin-left: 240px;
-            padding: 20px;
-            width: calc(100% - 240px);
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-        .card h3 {
-            margin: 0 0 10px;
-        }
+/* Content */
+.content {
+    margin-left: 240px;
+    padding: 30px 28px;
+    width: calc(100% - 240px);
+    background: #ffffff;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background: #eee;
-        }
+/* Cards */
+.card {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1.5px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+.card h3 {
+    margin: 0 0 12px;
+    color: #003d3d;
+    font-size: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+th, td {
+    border: 1px solid #d7d7d7;
+    padding: 12px 10px;
+}
+th {
+    background: #00FFFF;
+    color: #000;
+    font-weight: 700;
+}
+tr:hover td {
+    background: rgba(0, 255, 255, 0.08);
+}
     </style>
 </head>
 <body>
