@@ -29,7 +29,7 @@
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #00FFFF;
+    color: #0F172A;
 }
 .menu a {
     display: block;
