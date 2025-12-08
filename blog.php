@@ -101,8 +101,10 @@
         <section class="py-5 bg-gradient-primary-to-secondary text-white">
             <div class="container px-5 my-5">
                 <div class="text-center">
-                    <h2 class="display-4 fw-bolder mb-4">Dalam bahasa Spanyol, Siega artinya panen, kami mempercayai bahwa penguasaan teknologi informasi adalah keniscayaan.</h2>
-                    <h3 class="display-4 fw-bolder mb-4">Mari bergabung bersama SIEGA </h3>
+                    <h2 class="display-5 fw-bolder mb-4">Dalam bahasa Spanyol, Siega artinya panen, kami mempercayai bahwa penguasaan teknologi informasi adalah keniscayaan.</h2>
+                    
+                    <h3 class="display-6 fw-bolder mb-4">Mari bergabung bersama SIEGA Untuk Memanen Lebih Banyak Ilmu</h3>
+                    
                     <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.php">Join Us!</a>
                 </div>
             </div>
