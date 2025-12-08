@@ -104,6 +104,19 @@ tr:hover td {
     background: rgba(0, 255, 255, 0.15);
     cursor: pointer;
 }
+/* Perataan tombol Edit & Hapus */
+.td-aksi {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.td-aksi a {
+    display: inline-block;
+}
+.td-aksi {
+    justify-content: center;
+}
+
     </style>
 </head>
 <body>
@@ -283,15 +296,15 @@ tr:hover td {
                     <span style="color:#888;">Tidak ada gambar</span>
                 <?php } ?>
             </td>
-
-            <td>
+            
+            <td class="td-aksi">
                 <a href="aboutus_edit.php?id=<?= $row['id'] ?>" 
                    style="padding:6px 12px; background:#0F172A; color:white; border-radius:6px; text-decoration:none;">
                     Edit
                 </a>
                 <a href="proses/aboutus_hapus.php?id=<?= $row['id'] ?>"
                    onclick="return confirm('Yakin ingin menghapus?')"
-                   style="padding:6px 12px; background:#DC2626; color:white; border-radius:6px; text-decoration:none; margin-left:5px;">
+                   style="padding:6px 12px; background:#DC2626; color:white; border-radius:6px; text-decoration:none;">
                     Hapus
                 </a>
             </td>
