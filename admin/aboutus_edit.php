@@ -209,7 +209,7 @@ tr:hover td {
     </form>
 
     <br>
-    <a href="aboutus_admin.php" 
+    <a href="about_us.php" 
        style="text-decoration:none; color:#0F172A;">← Kembali</a>
 </div>
 
