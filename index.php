@@ -178,9 +178,9 @@
                             <p class="lead fw-light mb-4">Tempat dimana inovasi masa depan tumbuh dan berkembang.</p>
                             <p class="text-muted">Mulai perjalananmu di dunia digital bersama SIEGA dan jadilah bagian dari generasi inovator berikutnya. Tumbuh jadi pribadi yang berpikir kreatif, berani mencoba, dan terus berkembang untuk menciptakan inovasi. SIEGA siap mendampingi setiap langkahmu menuju kesuksesan.</p>
                             <div class="d-flex justify-content-center fs-2 gap-4">
-                                <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                                <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                                <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+                                <a class="text-gradient" href="#!"><i class="bi bi-instagram"></i></a>
+                                <a class="text-gradient" href="#!"><i class="bi bi-youtube"></i></a>
+                                <a class="text-gradient" href="#!"><i class="bi bi-facebook"></i></a>
                             </div>
                         </div>
                     </div>
