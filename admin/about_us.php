@@ -390,8 +390,8 @@ include "proses/koneksi.php";
                 <label>Pilih Jenis Konten</label>
                 <select id="modeInput" name="mode" required>
                     <option value="">-- Pilih Mode --</option>
-                    <option value="deskripsi">Hanya Deskripsi</option>
-                    <option value="gambar">Hanya Gambar</option>
+                    <option value="deskripsi">Deskripsi Saja</option>
+                    <option value="gambar">Dengan Gambar</option>
                 </select>
 
                 <label style="margin-top:12px;">Kategori</label>
