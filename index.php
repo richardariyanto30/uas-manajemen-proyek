@@ -178,9 +178,21 @@
                             <p class="lead fw-light mb-4">Tempat dimana inovasi masa depan tumbuh dan berkembang.</p>
                             <p class="text-muted">Mulai perjalananmu di dunia digital bersama SIEGA dan jadilah bagian dari generasi inovator berikutnya. Tumbuh jadi pribadi yang berpikir kreatif, berani mencoba, dan terus berkembang untuk menciptakan inovasi. SIEGA siap mendampingi setiap langkahmu menuju kesuksesan.</p>
                             <div class="d-flex justify-content-center fs-2 gap-4">
-                                <a class="text-gradient" href="#!"><i class="bi bi-instagram"></i></a>
-                                <a class="text-gradient" href="#!"><i class="bi bi-youtube"></i></a>
-                                <a class="text-gradient" href="#!"><i class="bi bi-facebook"></i></a>
+                                  <a class="btn btn-link fs-2 text-gradient" href="https://www.instagram.com/siega_unika/" target="_blank">
+                                        <i class="bi bi-instagram"></i>
+                                  </a>
+
+                                  <a class="btn btn-link fs-2 text-gradient" href="https://web.facebook.com/siega.unika/?_rdc=1&_rdr#" target="_blank">
+                                        <i class="bi bi-facebook"></i>
+                                  </a>
+
+                                  <a class="btn btn-link fs-2 text-gradient" href="https://www.tiktok.com/@siega_unika?_t=8VGDxzLfXzG&_r=1" target="_blank">
+                                        <i class="bi bi-tiktok"></i>
+                                  </a>
+
+                                  <a class="btn btn-link fs-2 text-gradient" href="https://www.youtube.com/channel/UCziKWu1OJMar7oEqaeINdzw" target="_blank">
+                                        <i class="bi bi-youtube"></i>
+                                  </a>
                             </div>
                         </div>
                     </div>
